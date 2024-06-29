@@ -24,6 +24,8 @@ DEFINE_UNARY(OpUConvert)
 DEFINE_UNARY(OpSConvert)
 DEFINE_UNARY(OpFConvert)
 DEFINE_UNARY(OpQuantizeToF16)
+DEFINE_UNARY(OpSatConvertSToU)
+DEFINE_UNARY(OpSatConvertUToS)
 DEFINE_UNARY(OpBitcast)
 
 } // namespace Sirit

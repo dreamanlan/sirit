@@ -605,6 +605,9 @@ public:
     /// Quantize a floating-point value to what is expressible by a 16-bit floating-point value.
     Id OpQuantizeToF16(Id result_type, Id operand);
 
+    Id OpSatConvertSToU(Id result_type, Id operand);
+    Id OpSatConvertUToS(Id result_type, Id operand);
+
     /// Bit pattern-preserving type conversion.
     Id OpBitcast(Id result_type, Id operand);
 

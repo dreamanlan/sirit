@@ -29,4 +29,4 @@ target_include_directories(sirit
                            PUBLIC ../include
                            PRIVATE .)
 
-target_link_libraries(sirit PUBLIC SPIRV-Headers::SPIRV-Headers)
+target_link_libraries(sirit PUBLIC SPIRV-Headers::SPIRV-Headers0)

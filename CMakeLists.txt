@@ -89,7 +89,7 @@ if (SIRIT_USE_SYSTEM_SPIRV_HEADERS)
     find_package(SPIRV-Headers REQUIRED)
 else()
     add_subdirectory(externals/SPIRV-Headers EXCLUDE_FROM_ALL)
-    add_library(SPIRV-Headers::SPIRV-Headers ALIAS SPIRV-Headers)
+    add_library(SPIRV-Headers::SPIRV-Headers0 ALIAS SPIRV-Headers)
 endif()
 
 # Sirit project files
